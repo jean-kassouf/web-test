@@ -1,0 +1,82 @@
+
+/***Header and Logo***/
+.logo-container{
+    max-width:180px;
+}
+
+.email{
+    color:rgba(0,0,0,.6);
+}
+.lang{
+    text-transform: uppercase;
+}
+.lang.active{
+    color: #e2b12d;
+}
+/*******extend bootstrap menu style**********/
+.nav-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/***********sections*********/
+.about-us{
+    background-size: contain;
+    background-image: url('../imgs/bg-wheat.png');
+    background-repeat: no-repeat;
+    background-position-x: right ;
+}
+.about-us-frame{
+    background-color: rgba(255,255,255,.5);
+}
+.services{
+    background-color: #ecf3f0;
+}
+.products{
+    background-color: #fff;
+}
+.section-headline{
+    color:#e2b02a;
+    font-size: 1.3em;
+}
+.section-title{
+    font-weight:bold;
+    font-size:40px;
+    text-transform: uppercase;
+    color:#2b2e34;
+    margin-bottom: 40px;
+}
+.section-headline{
+    background: url('../imgs/dot.png') repeat-x;
+}
+.service-icon{
+    height:95px;
+    /* width:80px; */
+    background-color: #ecf3f0;
+}
+.custom-ul{
+    margin:0;
+    padding:0;
+    list-style-position: inside;
+}
+.custom-ul li{
+    margin-bottom:25px;
+}
+.cards-container > div{
+    height:380px !important;
+    overflow: hidden;
+}
+.cards-label{
+    opacity: .75;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size:1.4em;
+}
+.card-paragraph{
+    font-weight: normal;
+    font-size: 18px;
+    text-align:left;
+    padding:20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
